@@ -1,0 +1,452 @@
+[
+    {
+        "id": 1,
+        "nome": "Arroz Branco Cozido",
+        "categoria": "Carboidrato",
+        "calorias": 130,
+        "proteina": 2.7,
+        "carbo": 28.2,
+        "gordura": 0.2,
+        "medida": "100g"
+    },
+    {
+        "id": 2,
+        "nome": "Arroz Integral Cozido",
+        "categoria": "Carboidrato",
+        "calorias": 112,
+        "proteina": 2.6,
+        "carbo": 23.0,
+        "gordura": 0.9,
+        "medida": "100g"
+    },
+    {
+        "id": 3,
+        "nome": "Feijão Carioca Cozido",
+        "categoria": "Carboidrato/Proteína",
+        "calorias": 76,
+        "proteina": 4.8,
+        "carbo": 13.6,
+        "gordura": 0.5,
+        "medida": "100g"
+    },
+    {
+        "id": 4,
+        "nome": "Macarrão de Sêmola Cozido",
+        "categoria": "Carboidrato",
+        "calorias": 158,
+        "proteina": 5.8,
+        "carbo": 30.9,
+        "gordura": 0.9,
+        "medida": "100g"
+    },
+    {
+        "id": 5,
+        "nome": "Batata Inglesa Cozida",
+        "categoria": "Carboidrato",
+        "calorias": 86,
+        "proteina": 1.7,
+        "carbo": 20.1,
+        "gordura": 0.1,
+        "medida": "100g"
+    },
+    {
+        "id": 6,
+        "nome": "Batata Doce Cozida",
+        "categoria": "Carboidrato",
+        "calorias": 86,
+        "proteina": 1.6,
+        "carbo": 20.1,
+        "gordura": 0.1,
+        "medida": "100g"
+    },
+    {
+        "id": 7,
+        "nome": "Mandioca Cozida (Aipim)",
+        "categoria": "Carboidrato",
+        "calorias": 125,
+        "proteina": 1.1,
+        "carbo": 30.1,
+        "gordura": 0.2,
+        "medida": "100g"
+    },
+    {
+        "id": 8,
+        "nome": "Aveia em Flocos",
+        "categoria": "Carboidrato",
+        "calorias": 394,
+        "proteina": 13.9,
+        "carbo": 66.3,
+        "gordura": 8.5,
+        "medida": "100g"
+    },
+    {
+        "id": 9,
+        "nome": "Tapioca (Goma Média)",
+        "categoria": "Carboidrato",
+        "calorias": 336,
+        "proteina": 0.2,
+        "carbo": 83.2,
+        "gordura": 0.0,
+        "medida": "100g"
+    },
+    {
+        "id": 10,
+        "nome": "Pão Francês",
+        "categoria": "Carboidrato",
+        "calorias": 300,
+        "proteina": 8.0,
+        "carbo": 58.0,
+        "gordura": 3.1,
+        "medida": "100g"
+    },
+    {
+        "id": 11,
+        "nome": "Peito de Frango Grelhado",
+        "categoria": "Proteína",
+        "calorias": 159,
+        "proteina": 32.0,
+        "carbo": 0.0,
+        "gordura": 2.5,
+        "medida": "100g"
+    },
+    {
+        "id": 12,
+        "nome": "Patinho Moído Cozido (Carne Bovina)",
+        "categoria": "Proteína",
+        "calorias": 219,
+        "proteina": 35.9,
+        "carbo": 0.0,
+        "gordura": 7.3,
+        "medida": "100g"
+    },
+    {
+        "id": 13,
+        "nome": "Ovo de Galinha (Inteiro Cozido)",
+        "categoria": "Proteína/Gordura",
+        "calorias": 155,
+        "proteina": 12.6,
+        "carbo": 1.1,
+        "gordura": 10.6,
+        "medida": "100g (Aprox 2 ovos médios)"
+    },
+    {
+        "id": 14,
+        "nome": "Clara de Ovo Cozida",
+        "categoria": "Proteína",
+        "calorias": 52,
+        "proteina": 10.9,
+        "carbo": 0.7,
+        "gordura": 0.2,
+        "medida": "100g"
+    },
+    {
+        "id": 15,
+        "nome": "Filé de Tilápia Grelhado",
+        "categoria": "Proteína",
+        "calorias": 128,
+        "proteina": 26.2,
+        "carbo": 0.0,
+        "gordura": 2.7,
+        "medida": "100g"
+    },
+    {
+        "id": 16,
+        "nome": "Salmão Grelhado",
+        "categoria": "Proteína/Gordura",
+        "calorias": 206,
+        "proteina": 22.1,
+        "carbo": 0.0,
+        "gordura": 12.3,
+        "medida": "100g"
+    },
+    {
+        "id": 17,
+        "nome": "Atum em Lata (ao natural)",
+        "categoria": "Proteína",
+        "calorias": 116,
+        "proteina": 25.5,
+        "carbo": 0.0,
+        "gordura": 0.9,
+        "medida": "100g"
+    },
+    {
+        "id": 18,
+        "nome": "Lombo Suíno Assado",
+        "categoria": "Proteína",
+        "calorias": 242,
+        "proteina": 27.3,
+        "carbo": 0.0,
+        "gordura": 14.7,
+        "medida": "100g"
+    },
+    {
+        "id": 19,
+        "nome": "Queijo Minas Frescal",
+        "categoria": "Proteína/Gordura",
+        "calorias": 264,
+        "proteina": 17.5,
+        "carbo": 3.2,
+        "gordura": 20.2,
+        "medida": "100g"
+    },
+    {
+        "id": 20,
+        "nome": "Whey Protein Concentrado 80%",
+        "categoria": "Suplemento/Proteína",
+        "calorias": 400,
+        "proteina": 80.0,
+        "carbo": 9.0,
+        "gordura": 5.0,
+        "medida": "100g"
+    },
+    {
+        "id": 21,
+        "nome": "Azeite de Oliva Extra Virgem",
+        "categoria": "Gordura",
+        "calorias": 884,
+        "proteina": 0.0,
+        "carbo": 0.0,
+        "gordura": 100.0,
+        "medida": "100ml"
+    },
+    {
+        "id": 22,
+        "nome": "Óleo de Soja",
+        "categoria": "Gordura",
+        "calorias": 884,
+        "proteina": 0.0,
+        "carbo": 0.0,
+        "gordura": 100.0,
+        "medida": "100ml"
+    },
+    {
+        "id": 23,
+        "nome": "Pasta de Amendoim Integral",
+        "categoria": "Gordura/Proteína",
+        "calorias": 588,
+        "proteina": 25.0,
+        "carbo": 20.0,
+        "gordura": 50.0,
+        "medida": "100g"
+    },
+    {
+        "id": 24,
+        "nome": "Abacate",
+        "categoria": "Gordura",
+        "calorias": 160,
+        "proteina": 2.0,
+        "carbo": 8.5,
+        "gordura": 14.7,
+        "medida": "100g"
+    },
+    {
+        "id": 25,
+        "nome": "Castanha de Caju Torrada",
+        "categoria": "Gordura",
+        "calorias": 553,
+        "proteina": 18.2,
+        "carbo": 30.2,
+        "gordura": 43.8,
+        "medida": "100g"
+    },
+    {
+        "id": 26,
+        "nome": "Amêndoas Torradas",
+        "categoria": "Gordura",
+        "calorias": 579,
+        "proteina": 21.1,
+        "carbo": 21.5,
+        "gordura": 49.9,
+        "medida": "100g"
+    },
+    {
+        "id": 27,
+        "nome": "Manteiga com Sal",
+        "categoria": "Gordura",
+        "calorias": 717,
+        "proteina": 0.8,
+        "carbo": 0.1,
+        "gordura": 81.1,
+        "medida": "100g"
+    },
+    {
+        "id": 28,
+        "nome": "Leite Integral",
+        "categoria": "Laticínio",
+        "calorias": 60,
+        "proteina": 3.2,
+        "carbo": 4.8,
+        "gordura": 3.2,
+        "medida": "100ml"
+    },
+    {
+        "id": 29,
+        "nome": "Leite Desnatado",
+        "categoria": "Laticínio",
+        "calorias": 34,
+        "proteina": 3.4,
+        "carbo": 5.0,
+        "gordura": 0.1,
+        "medida": "100ml"
+    },
+    {
+        "id": 30,
+        "nome": "Iogurte Natural Desnatado",
+        "categoria": "Laticínio",
+        "calorias": 56,
+        "proteina": 5.7,
+        "carbo": 7.7,
+        "gordura": 0.2,
+        "medida": "100g"
+    },
+    {
+        "id": 31,
+        "nome": "Requeijão Light",
+        "categoria": "Laticínio",
+        "calorias": 183,
+        "proteina": 13.0,
+        "carbo": 3.3,
+        "gordura": 13.0,
+        "medida": "100g"
+    },
+    {
+        "id": 32,
+        "nome": "Maçã (Fuji/Gala)",
+        "categoria": "Fruta",
+        "calorias": 52,
+        "proteina": 0.3,
+        "carbo": 13.8,
+        "gordura": 0.2,
+        "medida": "100g"
+    },
+    {
+        "id": 33,
+        "nome": "Banana Prata",
+        "categoria": "Fruta",
+        "calorias": 89,
+        "proteina": 1.1,
+        "carbo": 22.8,
+        "gordura": 0.3,
+        "medida": "100g"
+    },
+    {
+        "id": 34,
+        "nome": "Laranja (Crua)",
+        "categoria": "Fruta",
+        "calorias": 47,
+        "proteina": 0.9,
+        "carbo": 11.7,
+        "gordura": 0.1,
+        "medida": "100g"
+    },
+    {
+        "id": 35,
+        "nome": "Mamão Formosa",
+        "categoria": "Fruta",
+        "calorias": 43,
+        "proteina": 0.5,
+        "carbo": 10.8,
+        "gordura": 0.1,
+        "medida": "100g"
+    },
+    {
+        "id": 36,
+        "nome": "Morango",
+        "categoria": "Fruta",
+        "calorias": 32,
+        "proteina": 0.7,
+        "carbo": 7.7,
+        "gordura": 0.3,
+        "medida": "100g"
+    },
+    {
+        "id": 37,
+        "nome": "Alface",
+        "categoria": "Vegetal",
+        "calorias": 15,
+        "proteina": 1.4,
+        "carbo": 2.9,
+        "gordura": 0.2,
+        "medida": "100g"
+    },
+    {
+        "id": 38,
+        "nome": "Tomate",
+        "categoria": "Vegetal",
+        "calorias": 18,
+        "proteina": 0.9,
+        "carbo": 3.9,
+        "gordura": 0.2,
+        "medida": "100g"
+    },
+    {
+        "id": 39,
+        "nome": "Cenoura Crua",
+        "categoria": "Vegetal",
+        "calorias": 41,
+        "proteina": 0.9,
+        "carbo": 9.6,
+        "gordura": 0.2,
+        "medida": "100g"
+    },
+    {
+        "id": 40,
+        "nome": "Brócolis Cozido",
+        "categoria": "Vegetal",
+        "calorias": 35,
+        "proteina": 2.4,
+        "carbo": 7.2,
+        "gordura": 0.4,
+        "medida": "100g"
+    },
+    {
+        "id": 41,
+        "nome": "Cebola",
+        "categoria": "Vegetal/Tempero",
+        "calorias": 40,
+        "proteina": 1.1,
+        "carbo": 9.3,
+        "gordura": 0.1,
+        "medida": "100g"
+    },
+    {
+        "id": 42,
+        "nome": "Pão de Forma Integral",
+        "categoria": "Carboidrato",
+        "calorias": 252,
+        "proteina": 12.0,
+        "carbo": 42.0,
+        "gordura": 4.0,
+        "medida": "100g"
+    },
+    {
+        "id": 43,
+        "nome": "Doce de Leite (Industrializado)",
+        "categoria": "Açúcar/Livre",
+        "calorias": 315,
+        "proteina": 7.0,
+        "carbo": 57.0,
+        "gordura": 6.5,
+        "medida": "100g"
+    },
+    {
+        "id": 44,
+        "nome": "Whey Protein Isolado",
+        "categoria": "Suplemento/Proteína",
+        "calorias": 360,
+        "proteina": 90.0,
+        "carbo": 2.0,
+        "gordura": 1.0,
+        "medida": "100g"
+    },
+    {
+        "id": 45,
+        "nome": "Creatina Monohidratada",
+        "categoria": "Suplemento",
+        "calorias": 0,
+        "proteina": 0.0,
+        "carbo": 0.0,
+        "gordura": 0.0,
+        "medida": "100g"
+    }
+]

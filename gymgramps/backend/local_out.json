@@ -1,0 +1,101 @@
+{
+  "divisao": "Híbrido de Força e Cardio",
+  "diasPorSemana": 3,
+  "treinoDia": [
+    {
+      "nome": "Treino 1 - Full Body Força",
+      "aquecimento": "5 min alongamento ativo.",
+      "exercicios": [
+        {
+          "nomeExercicio": "Agachamento Livre",
+          "seriesAlvo": 3,
+          "repsAlvo": "10-15",
+          "percentualPeso": "Ajustar carga pesada (RIR 1-2)",
+          "observacao": "Descanso 60s. Composto. Foco em manter contração."
+        },
+        {
+          "nomeExercicio": "Supino Reto com Barra",
+          "seriesAlvo": 3,
+          "repsAlvo": "10-15",
+          "percentualPeso": "Ajustar carga pesada (RIR 1-2)",
+          "observacao": "Descanso 60s. Composto. Foco em manter contração."
+        },
+        {
+          "nomeExercicio": "Puxada Frontal Alta",
+          "seriesAlvo": 3,
+          "repsAlvo": "10-15",
+          "percentualPeso": "Ajustar carga pesada (RIR 1-2)",
+          "observacao": "Descanso 60s. Composto. Foco em manter contração."
+        },
+        {
+          "nomeExercicio": "Leg Press 45°",
+          "seriesAlvo": 3,
+          "repsAlvo": "10-15",
+          "percentualPeso": "Ajustar carga pesada (RIR 1-2)",
+          "observacao": "Descanso 60s. Composto. Foco em manter contração."
+        },
+        {
+          "nomeExercicio": "Desenvolvimento com Halteres",
+          "seriesAlvo": 3,
+          "repsAlvo": "10-15",
+          "percentualPeso": "Ajustar carga pesada (RIR 1-2)",
+          "observacao": "Descanso 60s. Composto. Foco em manter contração."
+        }
+      ]
+    },
+    {
+      "nome": "Cardio Moderado ou HIIT",
+      "aquecimento": "Caminhada leve de 5 min.",
+      "exercicios": [
+        {
+          "nomeExercicio": "Cardio de sua preferência (Esteira, Bike, Corrida)",
+          "seriesAlvo": 1,
+          "repsAlvo": "35 a 45 min",
+          "percentualPeso": "Intensidade Moderada (Zona 2/3)",
+          "observacao": "Mantenha a frequência cardíaca constante. Ideal para gasto calórico e preservação de massa magra."
+        }
+      ]
+    },
+    {
+      "nome": "Treino 2 - Full Body Hipertrofia",
+      "aquecimento": "Mobilidade.",
+      "exercicios": [
+        {
+          "nomeExercicio": "Agachamento Livre",
+          "seriesAlvo": 3,
+          "repsAlvo": "8-12",
+          "percentualPeso": "Ajustar carga pesada (RIR 1-2)",
+          "observacao": "Descanso 90s. Composto. "
+        },
+        {
+          "nomeExercicio": "Supino Reto com Barra",
+          "seriesAlvo": 3,
+          "repsAlvo": "8-12",
+          "percentualPeso": "Ajustar carga pesada (RIR 1-2)",
+          "observacao": "Descanso 90s. Composto. "
+        },
+        {
+          "nomeExercicio": "Puxada Frontal Alta",
+          "seriesAlvo": 3,
+          "repsAlvo": "8-12",
+          "percentualPeso": "Ajustar carga pesada (RIR 1-2)",
+          "observacao": "Descanso 90s. Composto. "
+        },
+        {
+          "nomeExercicio": "Leg Press 45°",
+          "seriesAlvo": 3,
+          "repsAlvo": "8-12",
+          "percentualPeso": "Ajustar carga pesada (RIR 1-2)",
+          "observacao": "Descanso 90s. Composto. "
+        },
+        {
+          "nomeExercicio": "Desenvolvimento com Halteres",
+          "seriesAlvo": 3,
+          "repsAlvo": "8-12",
+          "percentualPeso": "Ajustar carga pesada (RIR 1-2)",
+          "observacao": "Descanso 90s. Composto. "
+        }
+      ]
+    }
+  ]
+}

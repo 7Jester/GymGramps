@@ -1,0 +1,913 @@
+[
+  {
+    "id": 1,
+    "nome": "Supino Reto com Barra",
+    "grupoMuscular": "Peitoral",
+    "sinergistas": [
+      "Tríceps",
+      "Deltoide Anterior"
+    ],
+    "mecanica": "Composto",
+    "equipamento": "Barra",
+    "dificuldade": "Intermediário",
+    "ambiente": [
+      "Academia"
+    ]
+  },
+  {
+    "id": 2,
+    "nome": "Supino Inclinado com Halteres",
+    "grupoMuscular": "Peitoral",
+    "sinergistas": [
+      "Tríceps",
+      "Deltoide Anterior"
+    ],
+    "mecanica": "Composto",
+    "equipamento": "Halter",
+    "dificuldade": "Iniciante",
+    "ambiente": [
+      "Academia"
+    ]
+  },
+  {
+    "id": 3,
+    "nome": "Crossover Polia Alta",
+    "grupoMuscular": "Peitoral",
+    "sinergistas": [
+      "Deltoide Anterior"
+    ],
+    "mecanica": "Isolado",
+    "equipamento": "Polia",
+    "dificuldade": "Intermediário",
+    "ambiente": [
+      "Academia"
+    ]
+  },
+  {
+    "id": 4,
+    "nome": "Peck Deck (Voador)",
+    "grupoMuscular": "Peitoral",
+    "sinergistas": [
+      "Deltoide Anterior"
+    ],
+    "mecanica": "Isolado",
+    "equipamento": "Máquina",
+    "dificuldade": "Iniciante",
+    "ambiente": [
+      "Academia"
+    ]
+  },
+  {
+    "id": 5,
+    "nome": "Puxada Frontal Alta",
+    "grupoMuscular": "Dorsal",
+    "sinergistas": [
+      "Bíceps",
+      "Braquial"
+    ],
+    "mecanica": "Composto",
+    "equipamento": "Máquina/Polia",
+    "dificuldade": "Iniciante",
+    "ambiente": [
+      "Academia"
+    ]
+  },
+  {
+    "id": 6,
+    "nome": "Remada Curvada com Barra",
+    "grupoMuscular": "Dorsal",
+    "sinergistas": [
+      "Bíceps",
+      "Lombar",
+      "Posterior de Ombro"
+    ],
+    "mecanica": "Composto",
+    "equipamento": "Barra",
+    "dificuldade": "Avançado",
+    "ambiente": [
+      "Academia"
+    ]
+  },
+  {
+    "id": 7,
+    "nome": "Remada Baixa Triângulo",
+    "grupoMuscular": "Dorsal",
+    "sinergistas": [
+      "Bíceps",
+      "Braquial"
+    ],
+    "mecanica": "Composto",
+    "equipamento": "Polia",
+    "dificuldade": "Intermediário",
+    "ambiente": [
+      "Academia"
+    ]
+  },
+  {
+    "id": 8,
+    "nome": "Pullover na Polia Alta",
+    "grupoMuscular": "Dorsal",
+    "sinergistas": [
+      "Tríceps Longo"
+    ],
+    "mecanica": "Isolado",
+    "equipamento": "Polia",
+    "dificuldade": "Intermediário",
+    "ambiente": [
+      "Academia"
+    ]
+  },
+  {
+    "id": 9,
+    "nome": "Agachamento Livre",
+    "grupoMuscular": "Quadríceps",
+    "sinergistas": [
+      "Glúteo",
+      "Lombar",
+      "Posterior de Coxa"
+    ],
+    "mecanica": "Composto",
+    "equipamento": "Barra",
+    "dificuldade": "Avançado",
+    "ambiente": [
+      "Academia",
+      "Crossfit"
+    ]
+  },
+  {
+    "id": 10,
+    "nome": "Leg Press 45°",
+    "grupoMuscular": "Quadríceps",
+    "sinergistas": [
+      "Glúteo",
+      "Posterior de Coxa"
+    ],
+    "mecanica": "Composto",
+    "equipamento": "Máquina",
+    "dificuldade": "Intermediário",
+    "ambiente": [
+      "Academia"
+    ]
+  },
+  {
+    "id": 11,
+    "nome": "Cadeira Extensora",
+    "grupoMuscular": "Quadríceps",
+    "sinergistas": [],
+    "mecanica": "Isolado",
+    "equipamento": "Máquina",
+    "dificuldade": "Iniciante",
+    "ambiente": [
+      "Academia"
+    ]
+  },
+  {
+    "id": 12,
+    "nome": "Agachamento Búlgaro",
+    "grupoMuscular": "Quadríceps",
+    "sinergistas": [
+      "Glúteo"
+    ],
+    "mecanica": "Composto",
+    "equipamento": "Halter",
+    "dificuldade": "Avançado",
+    "ambiente": [
+      "Academia"
+    ]
+  },
+  {
+    "id": 13,
+    "nome": "Stiff com Halteres",
+    "grupoMuscular": "Posterior de Coxa",
+    "sinergistas": [
+      "Glúteo",
+      "Lombar"
+    ],
+    "mecanica": "Composto",
+    "equipamento": "Halter",
+    "dificuldade": "Intermediário",
+    "ambiente": [
+      "Academia"
+    ]
+  },
+  {
+    "id": 14,
+    "nome": "Cadeira Flexora",
+    "grupoMuscular": "Posterior de Coxa",
+    "sinergistas": [
+      "Panturrilha"
+    ],
+    "mecanica": "Isolado",
+    "equipamento": "Máquina",
+    "dificuldade": "Iniciante",
+    "ambiente": [
+      "Academia"
+    ]
+  },
+  {
+    "id": 15,
+    "nome": "Mesa Flexora",
+    "grupoMuscular": "Posterior de Coxa",
+    "sinergistas": [
+      "Panturrilha"
+    ],
+    "mecanica": "Isolado",
+    "equipamento": "Máquina",
+    "dificuldade": "Iniciante",
+    "ambiente": [
+      "Academia"
+    ]
+  },
+  {
+    "id": 16,
+    "nome": "Elevação Pélvica com Barra",
+    "grupoMuscular": "Glúteo",
+    "sinergistas": [
+      "Posterior de Coxa"
+    ],
+    "mecanica": "Composto",
+    "equipamento": "Barra",
+    "dificuldade": "Intermediário",
+    "ambiente": [
+      "Academia"
+    ]
+  },
+  {
+    "id": 17,
+    "nome": "Desenvolvimento com Halteres",
+    "grupoMuscular": "Deltoide",
+    "sinergistas": [
+      "Tríceps",
+      "Peitoral Superior"
+    ],
+    "mecanica": "Composto",
+    "equipamento": "Halter",
+    "dificuldade": "Intermediário",
+    "ambiente": [
+      "Academia"
+    ]
+  },
+  {
+    "id": 18,
+    "nome": "Elevação Lateral com Halteres",
+    "grupoMuscular": "Deltoide Lateral",
+    "sinergistas": [],
+    "mecanica": "Isolado",
+    "equipamento": "Halter",
+    "dificuldade": "Iniciante",
+    "ambiente": [
+      "Academia",
+      "Em Casa"
+    ]
+  },
+  {
+    "id": 19,
+    "nome": "Elevação Lateral na Polia",
+    "grupoMuscular": "Deltoide Lateral",
+    "sinergistas": [],
+    "mecanica": "Isolado",
+    "equipamento": "Polia",
+    "dificuldade": "Intermediário",
+    "ambiente": [
+      "Academia"
+    ]
+  },
+  {
+    "id": 20,
+    "nome": "Crucifixo Invertido na Máquina",
+    "grupoMuscular": "Deltoide Posterior",
+    "sinergistas": [
+      "Trapézio",
+      "Romboides"
+    ],
+    "mecanica": "Isolado",
+    "equipamento": "Máquina",
+    "dificuldade": "Iniciante",
+    "ambiente": [
+      "Academia"
+    ]
+  },
+  {
+    "id": 21,
+    "nome": "Rosca Direta com Barra W",
+    "grupoMuscular": "Bíceps",
+    "sinergistas": [
+      "Braquial"
+    ],
+    "mecanica": "Isolado",
+    "equipamento": "Barra",
+    "dificuldade": "Iniciante",
+    "ambiente": [
+      "Academia"
+    ]
+  },
+  {
+    "id": 22,
+    "nome": "Rosca Martelo com Halteres",
+    "grupoMuscular": "Braquial",
+    "sinergistas": [
+      "Bíceps",
+      "Antebraço"
+    ],
+    "mecanica": "Isolado",
+    "equipamento": "Halter",
+    "dificuldade": "Iniciante",
+    "ambiente": [
+      "Academia"
+    ]
+  },
+  {
+    "id": 23,
+    "nome": "Rosca Scott na Máquina",
+    "grupoMuscular": "Bíceps",
+    "sinergistas": [],
+    "mecanica": "Isolado",
+    "equipamento": "Máquina",
+    "dificuldade": "Iniciante",
+    "ambiente": [
+      "Academia"
+    ]
+  },
+  {
+    "id": 24,
+    "nome": "Tríceps Pulldown na Polia (Corda)",
+    "grupoMuscular": "Tríceps",
+    "sinergistas": [],
+    "mecanica": "Isolado",
+    "equipamento": "Polia",
+    "dificuldade": "Iniciante",
+    "ambiente": [
+      "Academia"
+    ]
+  },
+  {
+    "id": 25,
+    "nome": "Tríceps Testa com Barra",
+    "grupoMuscular": "Tríceps",
+    "sinergistas": [],
+    "mecanica": "Isolado",
+    "equipamento": "Barra",
+    "dificuldade": "Intermediário",
+    "ambiente": [
+      "Academia"
+    ]
+  },
+  {
+    "id": 26,
+    "nome": "Panturrilha em Pé (Smith ou Máquina)",
+    "grupoMuscular": "Panturrilha",
+    "sinergistas": [],
+    "mecanica": "Isolado",
+    "equipamento": "Máquina",
+    "dificuldade": "Iniciante",
+    "ambiente": [
+      "Academia"
+    ]
+  },
+  {
+    "id": 27,
+    "nome": "Panturrilha Sentado (Máquina Solear)",
+    "grupoMuscular": "Panturrilha",
+    "sinergistas": [],
+    "mecanica": "Isolado",
+    "equipamento": "Máquina",
+    "dificuldade": "Iniciante",
+    "ambiente": [
+      "Academia"
+    ]
+  },
+  {
+    "id": 28,
+    "nome": "Abdominal Crunch na Polia",
+    "grupoMuscular": "Abdômen",
+    "sinergistas": [],
+    "mecanica": "Isolado",
+    "equipamento": "Polia",
+    "dificuldade": "Intermediário",
+    "ambiente": [
+      "Academia"
+    ]
+  },
+  {
+    "id": 29,
+    "nome": "Elevação de Pernas em Suspensão",
+    "grupoMuscular": "Abdômen",
+    "sinergistas": [
+      "Flexores de Quadril"
+    ],
+    "mecanica": "Composto",
+    "equipamento": "Peso Corporal",
+    "dificuldade": "Avançado",
+    "ambiente": [
+      "Academia",
+      "Parque"
+    ]
+  },
+  {
+    "id": 30,
+    "nome": "Prancha Isométrica",
+    "grupoMuscular": "Abdômen",
+    "sinergistas": [
+      "Core Integrado"
+    ],
+    "mecanica": "Composto",
+    "equipamento": "Peso Corporal",
+    "dificuldade": "Iniciante",
+    "ambiente": [
+      "Academia",
+      "Em Casa",
+      "Parque"
+    ]
+  },
+  {
+    "id": 31,
+    "nome": "Flexão de Braços (Push-up) Tradicional",
+    "grupoMuscular": "Peitoral",
+    "sinergistas": [
+      "Tríceps",
+      "Deltoide Anterior",
+      "Core"
+    ],
+    "mecanica": "Composto",
+    "equipamento": "Peso Corporal",
+    "dificuldade": "Intermediário",
+    "ambiente": [
+      "Em Casa",
+      "Parque",
+      "Academia"
+    ]
+  },
+  {
+    "id": 32,
+    "nome": "Flexão de Braços com Joelhos Apoiados",
+    "grupoMuscular": "Peitoral",
+    "sinergistas": [
+      "Tríceps",
+      "Deltoide Anterior"
+    ],
+    "mecanica": "Composto",
+    "equipamento": "Peso Corporal",
+    "dificuldade": "Iniciante",
+    "ambiente": [
+      "Em Casa",
+      "Parque",
+      "Academia"
+    ]
+  },
+  {
+    "id": 33,
+    "nome": "Mergulho em Paralelas (Dips)",
+    "grupoMuscular": "Tríceps",
+    "sinergistas": [
+      "Peitoral Inferior",
+      "Deltoide Anterior"
+    ],
+    "mecanica": "Composto",
+    "equipamento": "Peso Corporal",
+    "dificuldade": "Avançado",
+    "ambiente": [
+      "Parque",
+      "Academia"
+    ]
+  },
+  {
+    "id": 34,
+    "nome": "Mergulho no Banco (Bench Dips)",
+    "grupoMuscular": "Tríceps",
+    "sinergistas": [
+      "Deltoide Anterior"
+    ],
+    "mecanica": "Composto",
+    "equipamento": "Peso Corporal",
+    "dificuldade": "Intermediário",
+    "ambiente": [
+      "Em Casa",
+      "Parque",
+      "Academia"
+    ]
+  },
+  {
+    "id": 35,
+    "nome": "Puxada Fixa (Pull-up) Tradicional",
+    "grupoMuscular": "Dorsal",
+    "sinergistas": [
+      "Bíceps",
+      "Braquial",
+      "Core"
+    ],
+    "mecanica": "Composto",
+    "equipamento": "Peso Corporal",
+    "dificuldade": "Avançado",
+    "ambiente": [
+      "Parque",
+      "Academia"
+    ]
+  },
+  {
+    "id": 36,
+    "nome": "Puxada Supinada (Chin-up)",
+    "grupoMuscular": "Dorsal",
+    "sinergistas": [
+      "Bíceps",
+      "Braquial"
+    ],
+    "mecanica": "Composto",
+    "equipamento": "Peso Corporal",
+    "dificuldade": "Avançado",
+    "ambiente": [
+      "Parque",
+      "Academia"
+    ]
+  },
+  {
+    "id": 37,
+    "nome": "Remada Invertida (Puxada na Barra Baixa)",
+    "grupoMuscular": "Dorsal",
+    "sinergistas": [
+      "Bíceps",
+      "Posterior de Ombro"
+    ],
+    "mecanica": "Composto",
+    "equipamento": "Peso Corporal",
+    "dificuldade": "Intermediário",
+    "ambiente": [
+      "Parque",
+      "Crossfit"
+    ]
+  },
+  {
+    "id": 38,
+    "nome": "Superman (Extensão de Lombar no Chão)",
+    "grupoMuscular": "Dorsal",
+    "sinergistas": [
+      "Lombar",
+      "Glúteo"
+    ],
+    "mecanica": "Isolado",
+    "equipamento": "Peso Corporal",
+    "dificuldade": "Iniciante",
+    "ambiente": [
+      "Em Casa",
+      "Parque",
+      "Academia"
+    ]
+  },
+  {
+    "id": 39,
+    "nome": "Agachamento com Peso Corporal (Air Squat)",
+    "grupoMuscular": "Quadríceps",
+    "sinergistas": [
+      "Glúteo",
+      "Posterior de Coxa"
+    ],
+    "mecanica": "Composto",
+    "equipamento": "Peso Corporal",
+    "dificuldade": "Iniciante",
+    "ambiente": [
+      "Em Casa",
+      "Parque",
+      "Academia"
+    ]
+  },
+  {
+    "id": 40,
+    "nome": "Afundo Andando (Walking Lunges)",
+    "grupoMuscular": "Quadríceps",
+    "sinergistas": [
+      "Glúteo",
+      "Posterior de Coxa"
+    ],
+    "mecanica": "Composto",
+    "equipamento": "Peso Corporal",
+    "dificuldade": "Intermediário",
+    "ambiente": [
+      "Em Casa",
+      "Parque",
+      "Academia",
+      "Crossfit"
+    ]
+  },
+  {
+    "id": 41,
+    "nome": "Passada Búlgara Peso Corporal (Com cadeira/banco)",
+    "grupoMuscular": "Quadríceps",
+    "sinergistas": [
+      "Glúteo"
+    ],
+    "mecanica": "Composto",
+    "equipamento": "Peso Corporal",
+    "dificuldade": "Avançado",
+    "ambiente": [
+      "Em Casa",
+      "Parque"
+    ]
+  },
+  {
+    "id": 42,
+    "nome": "Elevação Pélvica no Chão (Unilateral)",
+    "grupoMuscular": "Glúteo",
+    "sinergistas": [
+      "Posterior de Coxa"
+    ],
+    "mecanica": "Composto",
+    "equipamento": "Peso Corporal",
+    "dificuldade": "Intermediário",
+    "ambiente": [
+      "Em Casa",
+      "Parque",
+      "Academia"
+    ]
+  },
+  {
+    "id": 43,
+    "nome": "Abdução de Quadril Deitado (Elevação Lateral de Perna)",
+    "grupoMuscular": "Glúteo",
+    "sinergistas": [],
+    "mecanica": "Isolado",
+    "equipamento": "Peso Corporal",
+    "dificuldade": "Iniciante",
+    "ambiente": [
+      "Em Casa",
+      "Parque"
+    ]
+  },
+  {
+    "id": 44,
+    "nome": "Panturrilha em Pé (Degrau Livre)",
+    "grupoMuscular": "Panturrilha",
+    "sinergistas": [],
+    "mecanica": "Isolado",
+    "equipamento": "Peso Corporal",
+    "dificuldade": "Iniciante",
+    "ambiente": [
+      "Em Casa",
+      "Parque",
+      "Academia"
+    ]
+  },
+  {
+    "id": 45,
+    "nome": "Burpee",
+    "grupoMuscular": "Corpo Todo",
+    "sinergistas": [
+      "Cardio",
+      "Peitoral",
+      "Pernas"
+    ],
+    "mecanica": "Composto",
+    "equipamento": "Peso Corporal",
+    "dificuldade": "Avançado",
+    "ambiente": [
+      "Em Casa",
+      "Parque",
+      "Crossfit"
+    ]
+  },
+  {
+    "id": 46,
+    "nome": "Polichinelo (Jumping Jacks)",
+    "grupoMuscular": "Corpo Todo",
+    "sinergistas": [
+      "Cardio"
+    ],
+    "mecanica": "Composto",
+    "equipamento": "Peso Corporal",
+    "dificuldade": "Iniciante",
+    "ambiente": [
+      "Em Casa",
+      "Parque",
+      "Crossfit"
+    ]
+  },
+  {
+    "id": 47,
+    "nome": "Mountain Climber (Alpinista)",
+    "grupoMuscular": "Abdômen",
+    "sinergistas": [
+      "Ombros",
+      "Cardio"
+    ],
+    "mecanica": "Composto",
+    "equipamento": "Peso Corporal",
+    "dificuldade": "Intermediário",
+    "ambiente": [
+      "Em Casa",
+      "Parque",
+      "Crossfit"
+    ]
+  },
+  {
+    "id": 48,
+    "nome": "Abdominal Supra (Crunch Tradicional)",
+    "grupoMuscular": "Abdômen",
+    "sinergistas": [],
+    "mecanica": "Isolado",
+    "equipamento": "Peso Corporal",
+    "dificuldade": "Iniciante",
+    "ambiente": [
+      "Em Casa",
+      "Parque",
+      "Academia"
+    ]
+  },
+  {
+    "id": 49,
+    "nome": "Abdominal Bicicleta",
+    "grupoMuscular": "Abdômen",
+    "sinergistas": [
+      "Oblíquos"
+    ],
+    "mecanica": "Composto",
+    "equipamento": "Peso Corporal",
+    "dificuldade": "Intermediário",
+    "ambiente": [
+      "Em Casa",
+      "Parque",
+      "Academia"
+    ]
+  },
+  {
+    "id": 50,
+    "nome": "Levantamento Terra (Deadlift)",
+    "grupoMuscular": "Posterior de Coxa",
+    "sinergistas": [
+      "Lombar",
+      "Glúteo",
+      "Dorsal"
+    ],
+    "mecanica": "Composto",
+    "equipamento": "Barra",
+    "dificuldade": "Avançado",
+    "ambiente": [
+      "Academia",
+      "Crossfit"
+    ]
+  },
+  {
+    "id": 51,
+    "nome": "Agachamento Frontal (Front Squat)",
+    "grupoMuscular": "Quadríceps",
+    "sinergistas": [
+      "Core",
+      "Glúteo"
+    ],
+    "mecanica": "Composto",
+    "equipamento": "Barra",
+    "dificuldade": "Avançado",
+    "ambiente": [
+      "Academia",
+      "Crossfit"
+    ]
+  },
+  {
+    "id": 52,
+    "nome": "Kettlebell Swing",
+    "grupoMuscular": "Glúteo",
+    "sinergistas": [
+      "Lombar",
+      "Posterior de Coxa",
+      "Cardio"
+    ],
+    "mecanica": "Composto",
+    "equipamento": "Kettlebell",
+    "dificuldade": "Intermediário",
+    "ambiente": [
+      "Academia",
+      "Crossfit",
+      "Parque"
+    ]
+  },
+  {
+    "id": 53,
+    "nome": "Box Jump (Salto na Caixa)",
+    "grupoMuscular": "Quadríceps",
+    "sinergistas": [
+      "Glúteo",
+      "Panturrilha",
+      "Core"
+    ],
+    "mecanica": "Composto",
+    "equipamento": "Caixa",
+    "dificuldade": "Avançado",
+    "ambiente": [
+      "Academia",
+      "Crossfit"
+    ]
+  },
+  {
+    "id": 54,
+    "nome": "Wall Ball",
+    "grupoMuscular": "Quadríceps",
+    "sinergistas": [
+      "Ombros",
+      "Peitoral",
+      "Crossfit Flow"
+    ],
+    "mecanica": "Composto",
+    "equipamento": "Medicine Ball",
+    "dificuldade": "Intermediário",
+    "ambiente": [
+      "Crossfit"
+    ]
+  },
+  {
+    "id": 55,
+    "nome": "Remada no TRX (Fita de Suspensão)",
+    "grupoMuscular": "Dorsal",
+    "sinergistas": [
+      "Bíceps",
+      "Posterior de Ombro",
+      "Core"
+    ],
+    "mecanica": "Composto",
+    "equipamento": "TRX",
+    "dificuldade": "Intermediário",
+    "ambiente": [
+      "Parque",
+      "Crossfit",
+      "Academia"
+    ]
+  },
+  {
+    "id": 56,
+    "nome": "Flexão de Braços no TRX",
+    "grupoMuscular": "Peitoral",
+    "sinergistas": [
+      "Tríceps",
+      "Deltoide Anterior",
+      "Core Ativo"
+    ],
+    "mecanica": "Composto",
+    "equipamento": "TRX",
+    "dificuldade": "Avançado",
+    "ambiente": [
+      "Parque",
+      "Crossfit",
+      "Academia"
+    ]
+  },
+  {
+    "id": 57,
+    "nome": "Subida na Corda (Rope Climb)",
+    "grupoMuscular": "Dorsal",
+    "sinergistas": [
+      "Bíceps",
+      "Antebraço"
+    ],
+    "mecanica": "Composto",
+    "equipamento": "Corda",
+    "dificuldade": "Avançado",
+    "ambiente": [
+      "Crossfit"
+    ]
+  },
+  {
+    "id": 58,
+    "nome": "Pistol Squat (Agachamento Unilateral Livre)",
+    "grupoMuscular": "Quadríceps",
+    "sinergistas": [
+      "Glúteo",
+      "Estabilidade"
+    ],
+    "mecanica": "Composto",
+    "equipamento": "Peso Corporal",
+    "dificuldade": "Avançado",
+    "ambiente": [
+      "Em Casa",
+      "Parque",
+      "Crossfit"
+    ]
+  },
+  {
+    "id": 59,
+    "nome": "Farmer's Walk (Caminhada do Fazendeiro)",
+    "grupoMuscular": "Corpo Todo",
+    "sinergistas": [
+      "Antebraço",
+      "Trapézio",
+      "Core"
+    ],
+    "mecanica": "Composto",
+    "equipamento": "Kettlebell/Halter",
+    "dificuldade": "Intermediário",
+    "ambiente": [
+      "Crossfit",
+      "Academia"
+    ]
+  },
+  {
+    "id": 60,
+    "nome": "Sprint Curto (Arrancada Máxima 50m)",
+    "grupoMuscular": "Pernas",
+    "sinergistas": [
+      "Cardio",
+      "Metabolismo Acelerado"
+    ],
+    "mecanica": "Composto",
+    "equipamento": "Sem Equipamento",
+    "dificuldade": "Avançado",
+    "ambiente": [
+      "Parque"
+    ]
+  }
+]

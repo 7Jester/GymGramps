@@ -1,0 +1,15 @@
+frontend\src\components\fase2\MissoesDoDia.jsx - 2026-09-28T20:35:43.807Z
+frontend\src\pages\Treino.jsx - 2026-09-28T20:27:52.666Z
+frontend\src\pages\Dashboard.jsx - 2026-09-28T20:27:06.632Z
+frontend\src\App.jsx - 2026-09-28T20:06:37.770Z
+frontend\src\pages\Perfil.jsx - 2026-09-28T20:06:23.886Z
+frontend\src\components\fase2\gg.jsx - 2026-09-28T20:01:13.639Z
+frontend\src\components\fase2\LEIA-ME.md - 2026-09-28T20:01:13.613Z
+frontend\src\components\fase2\DispositivosSaude.jsx - 2026-09-28T20:01:13.606Z
+frontend\src\components\fase2\AvaliacaoQuinzenal.jsx - 2026-09-28T20:01:13.580Z
+backend\src\modules\tracker\tracker.controller.js - 2026-09-28T19:51:43.596Z
+backend\src\server.js - 2026-09-28T19:51:30.694Z
+backend\src\modules\social\social.controller.js - 2026-09-28T19:51:28.690Z
+backend\src\modules\social\social.routes.js - 2026-09-28T19:51:26.708Z
+backend\src\modules\tracker\tracker.routes.js - 2026-09-28T19:51:13.840Z
+backend\src\modules\gamification\missions.controller.js - 2026-09-28T19:51:11.844Z

@@ -1,0 +1,146 @@
+{
+    "supino reto com barra": [
+        "Supino Reto com Halteres",
+        "Supino Máquina Articulada",
+        "Crossover Focando Peitoral Médio",
+        "Flexão de Braços"
+    ],
+    "supino reto": [
+        "Supino Reto com Halteres",
+        "Supino Máquina",
+        "Peck Deck",
+        "Flexão de Braços"
+    ],
+    "agachamento livre": [
+        "Agachamento Hack",
+        "Leg Press 45",
+        "Agachamento no Smith",
+        "Agachamento Búlgaro"
+    ],
+    "leg press 45": [
+        "Agachamento Hack",
+        "Agachamento Livre",
+        "Cadeira Extensora",
+        "Afundo com Halteres"
+    ],
+    "levantamento terra": [
+        "Stiff",
+        "Levantamento Terra Sumô",
+        "Meio Terra (Block Pull)",
+        "Extensão Lombar Cadeira Roman"
+    ],
+    "stiff": [
+        "Mesa Flexora",
+        "Levantamento Terra Romeno (RDL)",
+        "Bom Dia (Good Morning)",
+        "Cadeira Flexora"
+    ],
+    "cadeira extensora": [
+        "Agachamento Livre (Carga Leve)",
+        "Sissy Squat",
+        "Leg Press Horizontal",
+        "Afundo"
+    ],
+    "mesa flexora": [
+        "Cadeira Flexora",
+        "Stiff",
+        "Flexão Nórdica",
+        "Bom Dia (Good Morning)"
+    ],
+    "puxada frontal": [
+        "Puxada com Triângulo (Supinada)",
+        "Barra Fixa (Assisted)",
+        "Remada Máquina Articulada",
+        "Pulldown com Corda"
+    ],
+    "barra fixa": [
+        "Puxada Frontal na Polia",
+        "Puxada Triângulo",
+        "Pullover no Cross",
+        "Remada Curvada"
+    ],
+    "remada curvada": [
+        "Remada Baixa na Polia",
+        "Remada Serrote (Unilateral)",
+        "Remada Cavalinho",
+        "Remada Máquina"
+    ],
+    "desenvolvimento com halteres": [
+        "Desenvolvimento com Barra (Militar)",
+        "Desenvolvimento Arnold",
+        "Desenvolvimento Máquina",
+        "Elevação Frontal e Lateral Conjunta"
+    ],
+    "desenvolvimento com barra": [
+        "Desenvolvimento com Halteres",
+        "Desenvolvimento Arnold",
+        "Desenvolvimento no Smith",
+        "Elevação Frontal e Lateral"
+    ],
+    "elevação lateral": [
+        "Elevação Lateral na Polia",
+        "Elevação Lateral Sentado",
+        "Remada Alta (Pegada Aberta)",
+        "Elevação Lateral Máquina"
+    ],
+    "rosca direta com barra": [
+        "Rosca Direta com Halteres",
+        "Rosca Scott",
+        "Rosca Martelo",
+        "Rosca Concentrada"
+    ],
+    "rosca direta": [
+        "Rosca Alternada com Halteres",
+        "Rosca no Cross Baixo",
+        "Rosca Scott",
+        "Rosca Martelo"
+    ],
+    "tríceps pulley": [
+        "Tríceps Corda",
+        "Tríceps Testa",
+        "Tríceps Francês Unilateral",
+        "Supino Fechado"
+    ],
+    "tríceps corda": [
+        "Tríceps Pulley (Barra Reta)",
+        "Tríceps Francês na Polia",
+        "Tríceps Testa no Supino",
+        "Mergulho no Banco"
+    ],
+    "panturrilha em pé": [
+        "Panturrilha Sentado (Gêmeos)",
+        "Panturrilha no Leg Press",
+        "Panturrilha Unilateral no Degrau",
+        "Panturrilha no Smith"
+    ],
+    "panturrilha sentado": [
+        "Panturrilha em Pé",
+        "Panturrilha no Leg Press 45",
+        "Panturrilha no Smith",
+        "Saltos Curtos"
+    ],
+    "abdominais supra": [
+        "Abdominal Máquina",
+        "Abdominal na Polia",
+        "Prancha Isométrica",
+        "Elevação de Pernas"
+    ],
+    "elevação de pernas": [
+        "Abdominal Infra Solo",
+        "Prancha com Movimento",
+        "Abdominal Remador",
+        "Abdominal Infra Pendurado"
+    ],
+    "supino inclinado com halteres": [
+        "Supino Inclinado com Barra",
+        "Crucifixo Inclinado",
+        "Supino Inclinado Máquina",
+        "Crossover de Baixo para Cima"
+    ],
+    "crucifixo reto": [
+        "Peck Deck (Voador)",
+        "Crossover",
+        "Supino Fly",
+        "Flexão de Braços Aberta"
+    ]
+}

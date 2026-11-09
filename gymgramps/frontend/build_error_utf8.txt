@@ -1,0 +1,74 @@
+﻿node.exe : [33m(!) 
+Your Vite config uses 
+features that are 
+unsupported by 
+`configLoader: 
+'native'`, which is 
+planned to become the 
+default in a future 
+major version of Vite:
+No linha:1 caractere:1
++ & "C:\Program Files\
+nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo 
+...
++ ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~
+    + CategoryInfo    
+          : NotSpeci  
+  fied: ([33m(!) Y   
+ our V...ersion of    
+ Vite::String) []    
+, RemoteException
+    + FullyQualifiedE 
+   rrorId : NativeCo  
+  mmandError
+ 
+  - ESM syntax in a 
+file loaded as 
+CommonJS 
+(vite.config.js:1:1). 
+Use a `.mjs` 
+extension or set 
+`"type": "module"` in 
+the closest 
+package.json
+Set `VITE_CONFIG_NATIV
+E_IGNORE_WARNING=true`
+ to suppress this 
+warning.[39m
+[36mvite v8.2.1 [32mbuilding client environment for production...[36m[39m
+transforming...
+Ô£ô 82 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   1.68 kB Ôöé gzip:   0.86 kB
+dist/assets/index-3PJv-n0h.css   34.29 kB Ôöé gzip:   6.79 kB
+dist/assets/index-FmIG2KqF.js   504.27 kB Ôöé gzip: 139.70 kB
+
+[32mÔ£ô built in 559ms[39m
+[33m[plugin builtin:v
+ite-reporter] 
+(!) Some chunks are 
+larger than 500 kB 
+after minification. 
+Consider:
+- Using dynamic 
+import() to 
+code-split the 
+application
+- Use build.rolldownOp
+tions.output.codeSplit
+ting to improve 
+chunking: https://roll
+down.rs/reference/Outp
+utOptions.codeSplittin
+g
+- Adjust chunk size 
+limit for this 
+warning via build.chun
+kSizeWarningLimit.[39
+m

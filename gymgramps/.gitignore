@@ -1,0 +1,12 @@
+node_modules/
+.env
+.env.local
+
+# credenciais reais do frontend (config.example.js fica versionado, config.js não)
+frontend/src/js/lib/config.js
+
+# CSS gerado pelo Tailwind CLI (build artifact — gerado por `npm run build:css`)
+frontend/src/css/output.css
+
+.DS_Store
+*.log

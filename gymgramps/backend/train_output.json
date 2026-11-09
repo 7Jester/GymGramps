@@ -1,0 +1,66 @@
+{
+  "treino_nome": "Treino A - Peito, Deltoide e Tríceps",
+  "objetivo_metabolico": "Hipertrofia Tensional e Mista",
+  "exercicios": [
+    {
+      "id_exercicio": 1,
+      "ordem": 1,
+      "series_aquecimento": 2,
+      "series_trabalho": 3,
+      "reps_alvo": "6-8",
+      "rir_alvo": 1,
+      "rest_seconds": 180,
+      "tecnica_avancada": null
+    },
+    {
+      "id_exercicio": 2,
+      "ordem": 2,
+      "series_aquecimento": 1,
+      "series_trabalho": 3,
+      "reps_alvo": "8-10",
+      "rir_alvo": 1,
+      "rest_seconds": 120,
+      "tecnica_avancada": null
+    },
+    {
+      "id_exercicio": 4,
+      "ordem": 3,
+      "series_aquecimento": 0,
+      "series_trabalho": 3,
+      "reps_alvo": "10-12",
+      "rir_alvo": 0,
+      "rest_seconds": 90,
+      "tecnica_avancada": "Rest-Pause"
+    },
+    {
+      "id_exercicio": 19,
+      "ordem": 4,
+      "series_aquecimento": 1,
+      "series_trabalho": 4,
+      "reps_alvo": "10-12",
+      "rir_alvo": 1,
+      "rest_seconds": 90,
+      "tecnica_avancada": null
+    },
+    {
+      "id_exercicio": 25,
+      "ordem": 5,
+      "series_aquecimento": 1,
+      "series_trabalho": 3,
+      "reps_alvo": "8-10",
+      "rir_alvo": 1,
+      "rest_seconds": 90,
+      "tecnica_avancada": null
+    },
+    {
+      "id_exercicio": 24,
+      "ordem": 6,
+      "series_aquecimento": 0,
+      "series_trabalho": 3,
+      "reps_alvo": "12-15",
+      "rir_alvo": 0,
+      "rest_seconds": 60,
+      "tecnica_avancada": "Drop-Set"
+    }
+  ]
+}

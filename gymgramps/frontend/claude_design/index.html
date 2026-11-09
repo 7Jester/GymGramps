@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>GymGramps — visual refatorado</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header>
+  <div class="bar">
+    <div class="logo"><div class="mark">GG</div><span class="word">GymGramps</span></div>
+    <nav id="nav">
+      <button data-tab="home" aria-current="page">Início</button>
+      <button data-tab="treino">Treino</button>
+      <button data-tab="dieta">Dieta</button>
+      <button data-tab="chat">Assistente</button>
+      <button data-tab="perfil">Perfil</button>
+    </nav>
+    <div style="display:flex;gap:8px;align-items:center">
+      <button class="icon-btn" id="theme" title="Alternar tema">☾</button>
+      <div class="avatar">W</div>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <!-- INÍCIO -->
+  <section class="screen" id="home">
+    <div class="page-head" style="display:flex;align-items:flex-end;justify-content:space-between;gap:24px">
+      <div>
+        <div class="eyebrow">Quinta, 27 de agosto</div>
+        <h1>Bom treino,<br />Willyam.</h1>
+      </div>
+      <div style="text-align:right;font-size:14px;color:var(--ink-soft);max-width:240px;text-wrap:pretty">Você está na semana 1 do ciclo PPLUL. Nada registrado ainda hoje.</div>
+    </div>
+
+    <div class="feature">
+      <div>
+        <div style="display:flex;align-items:center;gap:12px;margin-bottom:18px">
+          <span class="eyebrow">Próximo no cronograma</span>
+          <span style="width:4px;height:4px;border-radius:50%;background:rgba(237,234,224,.4)"></span>
+          <span class="mono" style="font-size:12px;color:rgba(237,234,224,.75)">14:00</span>
+        </div>
+        <h2>Descanso e preparação</h2>
+        <p>Momento de descompressão e organização do material para a faculdade.</p>
+        <div style="display:flex;gap:10px;flex-wrap:wrap">
+          <button class="btn btn-lime">Ver cronograma completo</button>
+          <button class="btn btn-ghost">Marcar como feito</button>
+        </div>
+      </div>
+      <div class="aside">
+        <div><div class="eyebrow">Depois</div><div style="font-size:15px;font-weight:500">Lanche da tarde · 15:30</div></div>
+        <div><div class="eyebrow">Treino de hoje</div><div style="font-size:15px;font-weight:500">Treino E — Lower</div></div>
+      </div>
+    </div>
+
+    <div class="grid-3" style="margin-top:14px">
+      <div class="card" style="padding:24px">
+        <div class="eyebrow" style="margin-bottom:20px">Treinos na semana</div>
+        <div class="num" style="font-size:40px">0<span style="color:var(--ink-faint);font-weight:600">/6</span></div>
+        <div style="margin-top:16px;display:flex;gap:5px">
+          <span style="height:6px;flex:1;border-radius:3px;background:var(--line)"></span><span style="height:6px;flex:1;border-radius:3px;background:var(--line)"></span><span style="height:6px;flex:1;border-radius:3px;background:var(--line)"></span><span style="height:6px;flex:1;border-radius:3px;background:var(--line)"></span><span style="height:6px;flex:1;border-radius:3px;background:var(--line)"></span><span style="height:6px;flex:1;border-radius:3px;background:var(--line)"></span>
+        </div>
+      </div>
+      <div class="card" style="padding:24px">
+        <div class="eyebrow" style="margin-bottom:20px">Sequência</div>
+        <div class="num" style="font-size:40px">0 <span style="font-size:18px;font-weight:600;color:var(--ink-soft)">dias</span></div>
+        <div style="margin-top:18px;font-size:13px;color:var(--ink-muted)">Registre o treino de hoje para começar.</div>
+      </div>
+      <div class="card" style="padding:24px">
+        <div class="eyebrow" style="margin-bottom:20px">Meta calórica</div>
+        <div class="num" style="font-size:40px">3000 <span style="font-size:18px;font-weight:600;color:var(--ink-soft)">kcal</span></div>
+        <div style="margin-top:18px;font-size:13px;color:var(--ink-muted)">Ganho de massa · 170P / 400C / 80G</div>
+      </div>
+    </div>
+
+    <div class="section-head"><h3>Próximas refeições</h3><a href="#" class="link-sm">Ver diário</a></div>
+    <div class="card card-flush" id="meals-home"></div>
+  </section>
+
+  <!-- TREINO -->
+  <section class="screen" id="treino" hidden>
+    <div class="page-head"><div class="eyebrow">Treino</div><h1>Treino E — Lower</h1></div>
+    <div class="split">
+      <div class="card card-flush">
+        <div class="list-head"><span class="eyebrow">Posteriores, glúteos e abdômen</span><span class="eyebrow">Séries × reps</span></div>
+        <div id="exercises"></div>
+        <div style="padding:22px 26px;border-top:1px solid var(--line-soft)"><button class="btn-block">Registrar treino de hoje</button></div>
+      </div>
+      <div class="stack">
+        <div style="background:var(--brand);color:var(--brand-on);border-radius:var(--r-md);padding:24px">
+          <div class="eyebrow" style="color:var(--lime);margin-bottom:14px">Seu plano</div>
+          <div style="font-family:var(--font-display);font-size:26px;font-weight:600;letter-spacing:-.03em">PPLUL</div>
+          <div style="font-size:13px;color:rgba(237,234,224,.7);margin-top:8px;line-height:1.5">Push / Pull / Legs / Upper / Lower — 5× por semana</div>
+        </div>
+        <div class="card" style="padding:24px">
+          <div class="eyebrow" style="margin-bottom:14px">Histórico</div>
+          <div style="font-size:14px;color:var(--ink-muted);line-height:1.5">Nenhuma sessão registrada ainda. O primeiro registro cria seu histórico.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DIETA -->
+  <section class="screen" id="dieta" hidden>
+    <div class="page-head"><div class="eyebrow">Alimentação</div><h1>Sua dieta</h1></div>
+    <div class="card" style="border-radius:var(--r-lg);padding:30px 32px">
+      <div style="display:flex;align-items:baseline;justify-content:space-between;margin-bottom:18px">
+        <span style="font-family:var(--font-display);font-size:20px;font-weight:600">Hoje</span>
+        <span class="mono" style="font-size:15px;color:var(--ink-soft)"><b style="color:var(--ink)">0</b> / 3000 kcal</span>
+      </div>
+      <div class="bar-track"><div class="bar-fill" style="width:2%"></div></div>
+      <div class="grid-3">
+        <div class="macro"><div class="eyebrow" style="margin-bottom:10px">Proteína</div><div class="num" style="font-size:28px">170<span style="font-size:16px;color:var(--ink-muted)">g</span></div></div>
+        <div class="macro"><div class="eyebrow" style="margin-bottom:10px">Carboidrato</div><div class="num" style="font-size:28px">400<span style="font-size:16px;color:var(--ink-muted)">g</span></div></div>
+        <div class="macro"><div class="eyebrow" style="margin-bottom:10px">Gordura</div><div class="num" style="font-size:28px">80<span style="font-size:16px;color:var(--ink-muted)">g</span></div></div>
+      </div>
+    </div>
+    <div class="section-head"><h3>Sugestão do seu plano</h3><a href="#" class="link-sm">+ Adicionar refeição</a></div>
+    <div class="card card-flush" id="meals-diet"></div>
+    <p class="note">Sugestão educativa baseada em fórmulas gerais (TMB). Não substitui acompanhamento de nutricionista (CFN).</p>
+  </section>
+
+  <!-- ASSISTENTE -->
+  <section class="screen chat" id="chat" hidden>
+    <div class="page-head">
+      <div class="eyebrow">Assistente</div>
+      <h1>Pergunte o que quiser</h1>
+      <p style="margin:12px 0 0;font-size:15px;color:var(--ink-soft);max-width:62ch;line-height:1.55;text-wrap:pretty">Sugestões educativas com base no seu plano — não substitui orientação de nutricionista (CFN) ou profissional de Educação Física (CREF).</p>
+    </div>
+    <div class="msgs">
+      <div class="msg-me">Olá</div>
+      <div class="msg-bot">Por enquanto essa é uma prévia da interface. Em breve vou considerar seu plano completo — treino, dieta e cronograma — para responder de verdade.</div>
+    </div>
+    <div class="composer">
+      <input placeholder="Pergunte sobre seu treino, dieta ou rotina…" />
+      <button class="send">↑</button>
+    </div>
+    <div class="suggest">
+      <span>Como ajustar meu déficit?</span><span>Substituir o arroz do almoço</span><span>Treino de hoje mais curto</span>
+    </div>
+  </section>
+
+  <!-- PERFIL -->
+  <section class="screen" id="perfil" hidden>
+    <div class="page-head"><div class="eyebrow">Perfil</div><h1>Seu perfil</h1></div>
+    <div class="split">
+      <div class="stack">
+        <div class="card profile">
+          <div class="big">W</div>
+          <div style="flex:1">
+            <div style="font-family:var(--font-display);font-size:22px;font-weight:600;letter-spacing:-.02em">Willyam</div>
+            <div style="font-size:13px;color:var(--ink-muted);margin-top:2px">dudacsilva1403@gmail.com</div>
+          </div>
+          <span class="tag">FREE</span>
+        </div>
+        <div class="card card-flush">
+          <div class="list-head"><span class="eyebrow">Dados corporais</span><a href="#" style="font-size:13px;font-weight:500">Editar</a></div>
+          <div class="data-grid">
+            <div><div class="k">Idade</div><div class="v">19 anos</div></div>
+            <div><div class="k">Sexo</div><div class="v">Masculino</div></div>
+            <div><div class="k">Peso atual</div><div class="v">77 kg</div></div>
+            <div><div class="k">Altura</div><div class="v">173 cm</div></div>
+            <div class="span2"><div class="k">Objetivo</div><div class="v">Ganho de massa</div></div>
+          </div>
+        </div>
+      </div>
+      <div class="stack">
+        <div class="card" style="padding:24px">
+          <div class="eyebrow" style="margin-bottom:6px">Preferências</div>
+          <div class="pref"><span style="font-size:15px">Tema escuro</span><button class="switch" id="switch-theme" aria-checked="false"><span></span></button></div>
+          <div class="pref"><span style="font-size:15px">Lembretes de refeição</span><button class="switch" aria-checked="false"><span></span></button></div>
+        </div>
+        <button class="btn-outline">Sair da conta</button>
+        <button class="btn-danger">Excluir conta</button>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>

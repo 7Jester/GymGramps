@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)" />
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+  <title>GymGramps</title>
+
+  <link rel="icon" type="image/svg+xml" href="/brand/gymgramps-mark-tile.svg" />
+  <!--
+      aplica o data-theme "dark" ANTES do primeiro paint
+    -->
+  <script>
+    (function () {
+      var saved = localStorage.getItem("gg-theme");
+      var dark = saved ? saved === "dark" : window.matchMedia("(prefers-color-scheme: dark)").matches;
+      document.documentElement.setAttribute("data-theme", dark ? "dark" : "light");
+    })();
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=JetBrains+Mono:wght@400;600&display=swap"
+    rel="stylesheet" />
+
+  <script type="module" crossorigin src="/assets/index-OEKUGsfi.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-D2IRXTnw.css">
+</head>
+
+<body>
+  <div id="app"></div>
+  <!-- precisa carregar antes do main.js: define window.APP_CONFIG que o supabaseClient.js lê -->
+</body>
+
+</html>
